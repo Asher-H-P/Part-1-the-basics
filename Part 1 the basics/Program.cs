@@ -20,7 +20,7 @@ namespace Part_1_the_basics
             // Trim gets rid of blank spaces in the start & end of strings.
             Console.Write(schoolCheer.ToUpper());
             Console.Write("     " + schoolCheer.StartsWith("Programers"));
-            //Console.Write just continues on the same line,instead of starting a new line.
+            //Console.Write lets the next line continue on the same line,instead of starting a new line.
             Console.WriteLine(Console.ReadLine());
         }
     }
